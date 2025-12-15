@@ -1,5 +1,13 @@
 JS
 >> Arrays Tip <<
 > added or removed to the end
-    - push()
+    - push(value)
     - pop()
+> added or removed to the first
+    - unshift(value)
+    - shift()
+> specific index can be added or removed or replaced
+    - splice(indexStart , indexEnd , value)
+        add | when indexStart > indextEnd , value
+        remove | when indextStart < indexEnd
+        replace | when indexStart == indexEnd , value
