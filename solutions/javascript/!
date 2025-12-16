@@ -16,9 +16,9 @@ JS
     - shift()
 > specific index can be added or removed or replaced
     - splice(indexStart , indexEnd , value)
-        add     | when indexStart more than indextEnd , value
-        remove  | when indextStart less than indexEnd
-        replace | when indexStart is equal indexEnd , value
+        add     | array.splice(position , deleteTime = 0 , newValue)
+        remove  | array.splice(position , deleteTimes);
+        replace | array.splice(position = 1 , deleteTime = 1 , newValue); for replace 1 element
 ------------------------------------------------------------------------------------------------
 > build-in
     getItem([array] , position)                   | retrieve
