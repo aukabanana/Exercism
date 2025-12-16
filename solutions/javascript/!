@@ -1,5 +1,13 @@
 JS
+------------------------------------------------------------------------------------------------
 >> Arrays Tip <<
+------------------------------------------------------------------------------------------------
+> called the array
+    array;
+> called element in the array
+    array[index];
+> declared new element in the array
+    array[index] = newValue;
 > added or removed to the end
     - push(value)
     - pop()
@@ -11,7 +19,8 @@ JS
         add     | when indexStart more than indextEnd , value
         remove  | when indextStart less than indexEnd
         replace | when indexStart is equal indexEnd , value
-> builder
+------------------------------------------------------------------------------------------------
+> build-in
     getItem([array] , position)                   | retrieve
     setItem([array] , position , replacementCard) | exchange
     insertItemAtTop([array , newCard])            | insert at the top of the stack
@@ -20,3 +29,4 @@ JS
     insertItemAtBottom([array] , newCard)         | insert at the bottom of the stack
     removeItemAtBottm([array])                    | remove from the bottom of the stack
     checkSizeOfStack([array] , stackSize)         | check is equal to stackSize or not
+------------------------------------------------------------------------------------------------
