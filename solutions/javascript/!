@@ -1,12 +1,19 @@
 JS
 ------------------------------------------------------------------------------------------------
-ARITHMETRIC OPERATORS
-    +                | addition
-    -                | subtract
-    *                | multiply
-    /                | divide
-    %                | remaining
-    ** or Math.pow() | power
+ARITHMETRIC OPERATORS & ShortHand Assignment Operators
+    addition    |     +     |     +=
+    subtract    |     -     |     -=
+    multiply    |     *     |     *=
+    divide      |     /     |     /=
+    remaining   |     %     |     %=
+    power       |     **    |     **=
+
+Order of Operations
+result = 3 ** 3 + 9 * 4 / (3 - 1);
+    => 3 ** 3 + 9 * 4/2
+    => 27 + 9 * 4/2
+    => 27 + 18
+    => 45
 ------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
