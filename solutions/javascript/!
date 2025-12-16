@@ -8,6 +8,15 @@ JS
     - shift()
 > specific index can be added or removed or replaced
     - splice(indexStart , indexEnd , value)
-        add | when indexStart > indextEnd , value
-        remove | when indextStart < indexEnd
-        replace | when indexStart == indexEnd , value
+        add     | when indexStart more than indextEnd , value
+        remove  | when indextStart less than indexEnd
+        replace | when indexStart is equal indexEnd , value
+> builder
+    getItem([array] , position)                   | retrieve
+    setItem([array] , position , replacementCard) | exchange
+    insertItemAtTop([array , newCard])            | insert at the top of the stack
+    removeItem([array] , position)                | remove
+    removeItemFromTop([array])                    | remove from the top of the stack
+    insertItemAtBottom([array] , newCard)         | insert at the bottom of the stack
+    removeItemAtBottm([array])                    | remove from the bottom of the stack
+    checkSizeOfStack([array] , stackSize)         | check is equal to stackSize or not
