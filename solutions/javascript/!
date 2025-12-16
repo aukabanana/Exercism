@@ -1,5 +1,33 @@
 JS
 ------------------------------------------------------------------------------------------------
+BASICS
+    let , var | can defined or redefined many times
+    const     | constants can assign variable once
+
+Function declarations
+    function add(num1, num2) {
+      return num1 + num2;
+    }
+    
+    add(1, 3);
+    => 4
+
+Export & Import
+    export const MY_VALUE = 10;
+    
+    export function add(num1, num2) {
+      return num1 + num2;
+    }
+    
+    import { MY_VALUE, add } from './file';
+    
+    add(MY_VALUE, 5);
+    => 15
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+ARITHMETRIC OPERATORS
+------------------------------------------------------------------------------------------------
 ARITHMETRIC OPERATORS & ShortHand Assignment Operators
     addition    |     +     |     +=
     subtract    |     -     |     -=
@@ -14,6 +42,24 @@ result = 3 ** 3 + 9 * 4 / (3 - 1);
     => 27 + 9 * 4/2
     => 27 + 18
     => 45
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+STRING INT BOOLEAN
+>string
+    \n  | new line
+    'string'[index]
+    'string'.charAt(index)
+    'string'.length , .toUpperCase() , .toLowerCase() , .trim() , etc.
+    string is immutable can't change from the original form
+    string can joint with + (plus sign)
+>int
+>boolean
+    true , false
+    ||  (disjuction)  or
+    &&  (conjuction)  and
+    !   (negation)    not
+    using () for higher precedence
 ------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
