@@ -127,3 +127,18 @@ ARRAY
     removeItemAtBottm([array])                    | remove from the bottom of the stack
     checkSizeOfStack([array] , stackSize)         | check is equal to stackSize or not
 ------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------
+TYPE CONVERSION
+------------------------------------------------------------------------------------------------
+> String to Integer
+    let var = someVar - 0;         | someVar = String
+> Integer to String
+    let var = someVar + "";        | someVar = Integer
+
+> Boolean to Integer
+    false convert to 0;
+    true  convert to 1;
+------------------------------------------------------------------------------------------------
