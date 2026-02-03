@@ -99,6 +99,8 @@ ARRAY
 ------------------------------------------------------------------------------------------------
 > called the array
     array;
+> length of the array
+    array.length;
 > called element in the array
     array[index];
 > declared new element in the array
