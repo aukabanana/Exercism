@@ -148,6 +148,11 @@ ARRAY
     removeItemAtBottm([array])                    | remove from the bottom of the stack
     checkSizeOfStack([array] , stackSize)         | check is equal to stackSize or not
 ------------------------------------------------------------------------------------------------
+Array Destructuring
+    const array = []
+    const [v1,v2,...,vn] = array
+    const [v1,,vn] = array
+------------------------------------------------------------------------------------------------
 
 
 
@@ -165,6 +170,11 @@ const name = {
     - Object.keys
 > Get all property value
     - Object.values
+------------------------------------------------------------------------------------------------
+Destructuring
+    const {props,} = name
+> can rewrite props variable
+    const {props:newProps} = name
 ------------------------------------------------------------------------------------------------
 
 
