@@ -1,4 +1,4 @@
-public class LogLevels {
+public class LogLevelsAdv {
     
     public static String message(String logLine) {
         int index = logLine.indexOf(":");
